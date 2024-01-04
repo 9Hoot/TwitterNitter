@@ -1,5 +1,5 @@
 javascript: (function() {
-  var preferredInstance = "https://nitter.poast.org";
+  var preferredInstance = "https://nitter.net";
   if (window.location.host.includes("twitter.com")) {
     if (window.location.pathname == "/i/flow/login") {
       if (window.location.search.includes("redirect_after_login")) {
