@@ -1,13 +1,13 @@
 # TwitterNitter
-Javascript bookmarklet script to redirect from twitter.com URLs to nitter ones, and vice versa.
+TwitterNitter is a Javascript bookmarklet that redirects from `twitter.com` and `x.com` URLs to nitter ones, as well as vice versa.
 
-To use it, copy the code within `bookmarklet.js` and paste it into the URL field of a bookmark.
+To use it, **copy the code within** `bookmarklet.js` **and paste it into the URL field** of a new bookmark.
 
-The default Twitter -> Nitter instance is `https://nitter.net`.
-To use a different instance, modify `preferredInstance`.
+The default Twitter to Nitter instance is `https://nitter.poast.org`.<br>
+To use a different instance, edit `var preferredInstance = "https://nitter.poast.org";` by right-click and `Edit`ing the bookmark.
 
 A list of Nitter instances can be found at https://github.com/zedeus/nitter/wiki/Instances.
 
-This is a personal project, so do not expect updates unless the code breaks or otherwise does not function as it should.
+This is a personal project, so do not expect updates unless something happens and I remember this repo exists.
 
-Nonetheless, feedback is appreciated.
+Nevertheless, feedback is appreciated.
